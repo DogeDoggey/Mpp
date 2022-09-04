@@ -1309,10 +1309,20 @@ $(function () {
   }
 
   var wssport = 8443;
-  if (window.location.hostname === "localhost") {
-    var gClient = new Client("ws://localhost:8443");
+  if (window.location.hostname === "MPPServer-1") {
+    var gClient = new Client("ws://MPPServer-1.darrensoman.repl.co");
   } else {
-    var gClient = new Client('wss://mppclone.com:8443');
+    var gClient = new Client('
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             //mppclone.com:8443');
   }
   if (loginInfo) {
     gClient.setLoginInfo(loginInfo);
