@@ -1310,7 +1310,7 @@ $(function () {
 
   var wssport = 8443;
   if (window.location.hostname === "MPPServer-1") {
-    var gClient = new Client("ws://MPPServer-1.darrensoman.repl.co");
+    var gClient = new Client("wss://MPPServer-1.darrensoman.repl.co");
   } else {
     var gClient = new Client('
                              
